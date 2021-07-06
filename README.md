@@ -30,9 +30,9 @@ The library includes some classic algorithms audio steganography  in time domain
 
 ## About
 
-​    Compared with time domain speech, compressed domain speech has more practical and research significance. Compressed domain speech steganography and steganalysis are the hotspots and difficulties in the field of information hiding. Compressed domain voice is a common medium in the Internet, especially in social applications. It is not easy to cause others to suspect that information is hidden in these media; the compressed domain voice carrier has a relatively large redundant space and is suitable for embedding secret messages; due to voice coding The inherent characteristics of the algorithm, the impact of small modification of coding parameters on the amount of generated files can still be maintained under the conditions of human auditory perception, and at a moderate embedding rate, the human ear can hardly distinguish between normal carriers and steganographic carriers.
+​    Compared with time domain speech, compressed domain speech has more practical and research significance. Compressed domain speech steganography and steganalysis are the hot-spots and difficulties in the field of information hiding. Compressed domain voice is a common medium in the Internet, especially in social applications. It is not easy to cause others to suspect that information is hidden in these media; the compressed domain voice carrier has a relatively large redundant space and is suitable for embedding secret messages; due to voice coding The inherent characteristics of the algorithm, the impact of small modification of coding parameters on the amount of generated files can still be maintained under the conditions of human auditory perception, and at a moderate embedding rate, the human ear can hardly distinguish between normal carriers and steganographic carriers.
 
-​    The current common speech coding standards, such as G.723.1, G.729, iLBC, AMR, etc., are usually based on the ACELP (Algebraic Code Excited Linear Prediction) coding principle. The main parameters of the ACELP algorithm include fixed codebook (FCB) , Adaptive Codebook (ACB) and Adaptive Codebook (LPC). Corresponding to it are three embedded domains.
+​    The current common speech coding standards, such as G.723.1, G.729, iLBC, AMR, etc., are usually based on the ACELP (Algebraic Code Excited Linear Prediction) coding principle. The main parameters of the ACELP algorithm include fixed codebook (FCB) , Adaptive Codebook (ACB) and Linear Predictive Coefficient (LPC). Corresponding to it are three embedded domains.
 
 ​    Compared with time domain speech, the related resources of compressed domain speech are even more lacking. The project takes the embedded domain as the node, and provides classic steganography algorithms from the forward and reverse directions. Among them, the forward algorithm, due to many factors, only provides an executable program version, and can only embed (extract) a 1-byte message. If you are interested, you can extract the LSB bit of the corresponding parameter by yourself and compare it with the extracted message; the reverse algorithm includes 3 embedded domain fixed codebooks, adaptive codebooks and adaptive codebooks, and also provides MATLAB and Python different versions.
 
@@ -42,7 +42,6 @@ The library includes some classic algorithms audio steganography  in time domain
 
 ## Algorithms
 
-#### 1. Spread Spectrum
-#### 2. Echo Hiding
-#### 3. Least Significant Bit Coding
-#### 4. Phase Coding
+#### 1. Fixed Codebook
+#### 2. Adaptive Codebook
+#### 3.  Linear Predictive Coefficient
