@@ -43,7 +43,7 @@
 
 #### 1.2 隐写分析算法
 
-- **CEC**: 李松斌, 贾已真, 付江云, & 戴琼兴. (2014). 基于码书关联网络的基音调制信息隐藏检测. 计算机学报, 37(10), 2107-2117.
+- **CEC**: 李松斌, 贾已真, 付江云, & 戴琼兴. (2014). 基于码书关联网络的基音调制信息隐藏检测. 计算机学报, 37(10), 2107-2117.[[PDF](http://cjc.ict.ac.cn/online/onlinepaper/lsb-2014107105930.pdf)]
 
 - **MSDPD**:  Yanzhen Ren, Jing Yang, Jinwei Wang and Lina Wang. [AMR steganalysis based on second-order difference of pitch delay](https://ieeexplore.ieee.org/abstract/document/7774981). *IEEE Transactions on Information Forensics and Security*, *12*(6), 1345-1357.
 
