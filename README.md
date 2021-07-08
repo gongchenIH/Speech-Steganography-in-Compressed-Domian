@@ -1,10 +1,8 @@
 # 压缩域语音隐写
 
-该仓库包括一些经典的压缩域音频隐写算法
+​        该仓库包括一些经典的压缩域音频隐写算法和隐写分析算法
 
 ## 说明
-
-
 
 ​        压缩域语音相对于时域语音更具有实用和研究意义，压缩域语音隐写和隐写分析是信息隐藏领域研究的热点和难点。压缩域语音是互联网中，特别是社交应用中一类常见的媒体，在这些媒体隐藏信息不容易引起他人的怀疑；压缩域语音载体拥有比较大的冗余空间，适合嵌入隐秘消息；由于语音编码算法固有特性，编码参数小幅度的修改对后生成文件的量的影响仍然 能够维持在人类听觉感知条件下，在适度嵌入率下，人耳几乎不能区别正常载体 还是隐写载体。
 
@@ -16,13 +14,54 @@
 
 ## 算法
 
-#### 1. 固定码本
+​    该仓库提供的相应代码可以参考以下论文：
+
+### 1. 固定码本
+
+#### 1.1 隐写算法
+
+- **Geiser**: Bernd Geiser and Peter Vary. 2008. High rate data hiding in ACELP speech codecs. In Acoustics, Speech and Signal Processing, 2008. ICASSP 2008. IEEE International Conference on. IEEE, 4005–4008
+
+- **Miao**: Haibo Miao, Liusheng Huang, Zhili Chen, Wei Yang, and Ammar Al-Hawbani. 2012. A new scheme for covert communication via 3G encoded speech. Computers & Electrical Engineering 38, 6 (2012), 1490–1501.
+
+- **AFA**: Yanzhen Ren, Hongxia Wu, and Lina Wang. 2018. An AMR adaptive steganography algorithm based on minimizing distortion. Multimedia Tools and Applications 77, 10 (2018), 12095–12110.
+
+#### 1.2 隐写分析算法
+
+- **Fast-SPP**: Yanzhen Ren, Tingting Cai, Ming Tang, and Lina Wang. 2015. AMR steganalysis based on the probability of same pulse position. IEEE Transactions on Information Forensics and Security 10, 9 (2015), 1801–1811.
+
+- **MTJCE**:  Haibo Miao, Liusheng Huang, Yao Shen, Xiaorong Lu, and Zhili Chen. 2013. Steganalysis of compressed speech based on Markov and entropy. In International Workshop on Digital Watermarking. Springer, 63–76.
+
+- **SRCNet**: Chen Gong, Xiaowei Yi, Xianfeng Zhao and Yi Ma,  (2019, July). Recurrent convolutional neural networks for AMR steganalysis based on pulse position. In *Proceedings of the ACM Workshop on Information Hiding and Multimedia Security* (pp. 2-13).
 
 #### 2.自适应码本
 
+#### 1.1 隐写算法
+
+- **Geiser**: Bernd Geiser and Peter Vary. 2008. High rate data hiding in ACELP speech codecs. In Acoustics, Speech and Signal Processing, 2008. ICASSP 2008. IEEE International Conference on. IEEE, 4005–4008
+
+- **Miao**: Haibo Miao, Liusheng Huang, Zhili Chen, Wei Yang, and Ammar Al-Hawbani. 2012. A new scheme for covert communication via 3G encoded speech. Computers & Electrical Engineering 38, 6 (2012), 1490–1501.
+
+- **AFA**: Yanzhen Ren, Hongxia Wu, and Lina Wang. 2018. An AMR adaptive steganography algorithm based on minimizing distortion. Multimedia Tools and Applications 77, 10 (2018), 12095–12110.
+
+#### 1.2 隐写分析算法
+
+- **Fast-SPP**: Yanzhen Ren, Tingting Cai, Ming Tang, and Lina Wang. 2015. AMR steganalysis based on the probability of same pulse position. IEEE Transactions on Information Forensics and Security 10, 9 (2015), 1801–1811.
+
+- **MTJCE**:  Haibo Miao, Liusheng Huang, Yao Shen, Xiaorong Lu, and Zhili Chen. 2013. Steganalysis of compressed speech based on Markov and entropy. In International Workshop on Digital Watermarking. Springer, 63–76.
+
+- **SRCNet**: Chen Gong, Xiaowei Yi, Xianfeng Zhao and Yi Ma,  (2019, July). Recurrent convolutional neural networks for AMR steganalysis based on pulse position. In *Proceedings of the ACM Workshop on Information Hiding and Multimedia Security* (pp. 2-13).
+
 #### 3. 自适应码本
 
+#### 3.1 隐写算法
 
+- **Xiao**: Bo Xiao, Yongfeng Huang and Shanyu Tang, “[An approach to information hiding in low bit-rate speech stream](https://ieeexplore.ieee.org/author/37849377500),” in Proc. IEEE Global Telecommun. Conf. (GLOBECOM), Nov. 2008, pp. 1–5.
+
+
+#### 3.2 隐写分析算法
+
+- **SS-QCCN**:  Songbin Li, Y. Jia, and C.-C. J. Kuo, “Steganalysis of QIM steganography in low-bit-rate speech signals,” IEEE/ACM Trans. Audio, Speech, Language Process., vol. 25, no. 5, pp. 1011–1022, May 2017.
 
 # Speech Steganography in Time Domain
 
@@ -43,5 +82,55 @@ The library includes some classic algorithms audio steganography  in time domain
 ## Algorithms
 
 #### 1. Fixed Codebook
+
+#### 1.1 Stegaography
+
+- **Geiser**: Bernd Geiser and Peter Vary. 2008. High rate data hiding in ACELP speech codecs. In Acoustics, Speech and Signal Processing, 2008. ICASSP 2008. IEEE International Conference on. IEEE, 4005–4008
+
+- **Miao**: Haibo Miao, Liusheng Huang, Zhili Chen, Wei Yang, and Ammar Al-Hawbani. 2012. A new scheme for covert communication via 3G encoded speech. Computers & Electrical Engineering 38, 6 (2012), 1490–1501.
+
+- **AFA**: Yanzhen Ren, Hongxia Wu, and Lina Wang. 2018. An AMR adaptive steganography algorithm based on minimizing distortion. Multimedia Tools and Applications 77, 10 (2018), 12095–12110.
+
+#### 1.2 Steganalysis
+
+- **Fast-SPP**: Yanzhen Ren, Tingting Cai, Ming Tang, and Lina Wang. 2015. AMR steganalysis based on the probability of same pulse position. IEEE Transactions on Information Forensics and Security 10, 9 (2015), 1801–1811.
+
+- **MTJCE**:  Haibo Miao, Liusheng Huang, Yao Shen, Xiaorong Lu, and Zhili Chen. 2013. Steganalysis of compressed speech based on Markov and entropy. In International Workshop on Digital Watermarking. Springer, 63–76.
+
+- **SRCNet**: Chen Gong, Xiaowei Yi, Xianfeng Zhao and Yi Ma,  (2019, July). Recurrent convolutional neural networks for AMR steganalysis based on pulse position. In *Proceedings of the ACM Workshop on Information Hiding and Multimedia Security* (pp. 2-13).
+
 #### 2. Adaptive Codebook
+
+#### 1.1 Stegaography
+
+- **Geiser**: Bernd Geiser and Peter Vary. 2008. High rate data hiding in ACELP speech codecs. In Acoustics, Speech and Signal Processing, 2008. ICASSP 2008. IEEE International Conference on. IEEE, 4005–4008
+
+- **Miao**: Haibo Miao, Liusheng Huang, Zhili Chen, Wei Yang, and Ammar Al-Hawbani. 2012. A new scheme for covert communication via 3G encoded speech. Computers & Electrical Engineering 38, 6 (2012), 1490–1501.
+
+- **AFA**: Yanzhen Ren, Hongxia Wu, and Lina Wang. 2018. An AMR adaptive steganography algorithm based on minimizing distortion. Multimedia Tools and Applications 77, 10 (2018), 12095–12110.
+
+#### 1.2 Steganalysis
+
+- **Fast-SPP**: Yanzhen Ren, Tingting Cai, Ming Tang, and Lina Wang. 2015. AMR steganalysis based on the probability of same pulse position. IEEE Transactions on Information Forensics and Security 10, 9 (2015), 1801–1811.
+
+- **MTJCE**:  Haibo Miao, Liusheng Huang, Yao Shen, Xiaorong Lu, and Zhili Chen. 2013. Steganalysis of compressed speech based on Markov and entropy. In International Workshop on Digital Watermarking. Springer, 63–76.
+
+- **SRCNet**: Chen Gong, Xiaowei Yi, Xianfeng Zhao and Yi Ma,  (2019, July). Recurrent convolutional neural networks for AMR steganalysis based on pulse position. In *Proceedings of the ACM Workshop on Information Hiding and Multimedia Security* (pp. 2-13).
+
 #### 3.  Linear Predictive Coefficient
+
+#### 1.1 Stegaography
+
+- **Geiser**: Bernd Geiser and Peter Vary. 2008. High rate data hiding in ACELP speech codecs. In Acoustics, Speech and Signal Processing, 2008. ICASSP 2008. IEEE International Conference on. IEEE, 4005–4008
+
+- **Miao**: Haibo Miao, Liusheng Huang, Zhili Chen, Wei Yang, and Ammar Al-Hawbani. 2012. A new scheme for covert communication via 3G encoded speech. Computers & Electrical Engineering 38, 6 (2012), 1490–1501.
+
+- **AFA**: Yanzhen Ren, Hongxia Wu, and Lina Wang. 2018. An AMR adaptive steganography algorithm based on minimizing distortion. Multimedia Tools and Applications 77, 10 (2018), 12095–12110.
+
+#### 1.2 Steganalysis
+
+- **Fast-SPP**: Yanzhen Ren, Tingting Cai, Ming Tang, and Lina Wang. 2015. AMR steganalysis based on the probability of same pulse position. IEEE Transactions on Information Forensics and Security 10, 9 (2015), 1801–1811.
+
+- **MTJCE**:  Haibo Miao, Liusheng Huang, Yao Shen, Xiaorong Lu, and Zhili Chen. 2013. Steganalysis of compressed speech based on Markov and entropy. In International Workshop on Digital Watermarking. Springer, 63–76.
+
+- **SRCNet**: Chen Gong, Xiaowei Yi, Xianfeng Zhao and Yi Ma,  (2019, July). Recurrent convolutional neural networks for AMR steganalysis based on pulse position. In *Proceedings of the ACM Workshop on Information Hiding and Multimedia Security* (pp. 2-13).
