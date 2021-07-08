@@ -52,7 +52,7 @@
 
 #### 3.1 隐写算法
 
-- **Xiao**: Bo Xiao, Yongfeng Huang and Shanyu Tang, [An approach to information hiding in low bit-rate speech stream](https://ieeexplore.ieee.org/author/37849377500), in Proc. IEEE Global Telecommun. Conf. (GLOBECOM), Nov. 2008, pp. 1–5.[https://github.com/fjxmlzn/RNN-SM#steganalysis-speech-dataset]
+- **Xiao**: Bo Xiao, Yongfeng Huang and Shanyu Tang, [An approach to information hiding in low bit-rate speech stream](https://ieeexplore.ieee.org/author/37849377500), in Proc. IEEE Global Telecommun. Conf. (GLOBECOM), Nov. 2008, pp. 1–5.[[code](https://github.com/fjxmlzn/RNN-SM#steganalysis-speech-dataset)]
 
 
 #### 3.2 [隐写分析算法](https://github.com/gongchenIH/Speech-Steganography-in-Compressed-Domian/tree/main/2-Steganalysis/2.1-LPC_Steganalysis)
