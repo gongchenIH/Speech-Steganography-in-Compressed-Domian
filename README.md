@@ -18,7 +18,7 @@
 
 ### 1. 固定码本
 
-#### 1.1 隐写算法
+#### 1.1 [隐写算法](https://github.com/gongchenIH/Speech-Steganography-in-Compressed-Domian/tree/main/1-Steganography/1.2.1-FCB_Steganpgraphy_Embed_byte)
 
 - **Geiser**: Bernd Geiser and Peter Vary. 2008. [High rate data hiding in ACELP speech codecs](https://ieeexplore.ieee.org/document/4518532). In Acoustics, Speech and Signal Processing, 2008. ICASSP 2008. IEEE International Conference on. IEEE, 4005–4008
 
@@ -26,7 +26,7 @@
 
 - **AFA**: Yanzhen Ren, Hongxia Wu, and Lina Wang. 2018. [An AMR adaptive steganography algorithm based on minimizing distortion](https://link.springer.com/article/10.1007/s11042-017-4860-1). Multimedia Tools and Applications 77, 10 (2018), 12095–12110.
 
-#### 1.2 隐写分析算法
+#### 1.2 [隐写分析算法](https://github.com/gongchenIH/Speech-Steganography-in-Compressed-Domian/tree/main/2-Steganalysis/2.2-FCB_Steganalysis)
 
 - **Fast-SPP**: Yanzhen Ren, Tingting Cai, Ming Tang, and Lina Wang. 2015. [AMR steganalysis based on the probability of same pulse position](https://ieeexplore.ieee.org/document/7083709). IEEE Transactions on Information Forensics and Security 10, 9 (2015), 1801–1811.
 
@@ -36,12 +36,12 @@
 
 #### 2.自适应码本
 
-#### 1.1 隐写算法
+#### 1.1 [隐写算法](https://github.com/gongchenIH/Speech-Steganography-in-Compressed-Domian/tree/main/1-Steganography/1.1.1-PD_Steganpgraphy_Embed_byte)
 
 - **Huang**: Yongfeng Huang, Chenghao Liu, Shanyu Tang and Sen Bai. (2012). [Steganography integration into a low-bit rate speech codec](https://ieeexplore.ieee.org/abstract/document/6301705). *IEEE transactions on information forensics and security*, *7*(6), 1865-1875.
 
 
-#### 1.2 隐写分析算法
+#### 1.2 [隐写分析算法](https://github.com/gongchenIH/Speech-Steganography-in-Compressed-Domian/tree/main/2-Steganalysis/2.3-PD_Steganalysis)
 
 - **CEC**: 李松斌, 贾已真, 付江云, & 戴琼兴. (2014). 基于码书关联网络的基音调制信息隐藏检测. 计算机学报, 37(10), 2107-2117.[[PDF](http://cjc.ict.ac.cn/online/onlinepaper/lsb-2014107105930.pdf)]
 
@@ -52,10 +52,10 @@
 
 #### 3.1 隐写算法
 
-- **Xiao**: Bo Xiao, Yongfeng Huang and Shanyu Tang, [An approach to information hiding in low bit-rate speech stream](https://ieeexplore.ieee.org/author/37849377500), in Proc. IEEE Global Telecommun. Conf. (GLOBECOM), Nov. 2008, pp. 1–5.
+- **Xiao**: Bo Xiao, Yongfeng Huang and Shanyu Tang, [An approach to information hiding in low bit-rate speech stream](https://ieeexplore.ieee.org/author/37849377500), in Proc. IEEE Global Telecommun. Conf. (GLOBECOM), Nov. 2008, pp. 1–5.[https://github.com/fjxmlzn/RNN-SM#steganalysis-speech-dataset]
 
 
-#### 3.2 隐写分析算法
+#### 3.2 [隐写分析算法](https://github.com/gongchenIH/Speech-Steganography-in-Compressed-Domian/tree/main/2-Steganalysis/2.1-LPC_Steganalysis)
 
 - **SS-QCCN**:  Songbin Li, Y. Jia, and C.-C. J. Kuo, [Steganalysis of QIM steganography in low-bit-rate speech signals](https://ieeexplore.ieee.org/abstract/document/7867798/), IEEE/ACM Trans. Audio, Speech, Language Process., vol. 25, no. 5, pp. 1011–1022, May 2017.
 - **RNN-SM**: Lin Z, Huang Y, Wang J. RNN-SM: Fast steganalysis of VoIP streams using recurrent neural network. IEEE Transactions on Information Forensics and Security, 2018, 13(7): 1854-1868.[[code]](https://github.com/fjxmlzn/RNN-SM)
